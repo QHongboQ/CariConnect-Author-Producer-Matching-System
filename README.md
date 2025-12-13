@@ -53,15 +53,24 @@ This project was developed as part of the **Break Through Tech AI Studio** progr
 
 ---
 
-## 📊 Exploratory Data Analysis & Insights
+## 📊 Exploratory Data Analysis & Topic Modeling
 
-Below are selected visualizations generated during exploratory analysis:
+### KMeans Clustering Results
+![KMeans Cluster Distribution](images/kmeans_cluster_distribution.png)
 
-![Genre Distribution](results/genre_distribution.png)  
-*Figure 1: Distribution of genres across historical book-to-production adaptations.*
+We observed a highly imbalanced cluster distribution, with Cluster 15 containing over 200 books.  
+This suggests that KMeans may group a dominant theme too aggressively.
 
-![Topic Clusters](results/topic_clusters.png)  
-*Figure 2: Topic modeling clusters revealing dominant narrative and thematic patterns.*
+### LDA Topic Modeling Results
+![LDA Topic Distribution](images/lda_topic_distribution.png)
+
+LDA produced a more balanced topic distribution, indicating better separation of narrative themes.
+
+## 📈 Model Evaluation Results
+![Confusion Matrix Results](images/confusion_matrix_results.png)
+
+Our supervised model achieved strong performance with high accuracy and ROC-AUC, demonstrating effective author–producer compatibility prediction.
+
 
 **Key Insights**
 - Certain genres (e.g., drama, folklore, historical fiction) appear disproportionately adapted  
