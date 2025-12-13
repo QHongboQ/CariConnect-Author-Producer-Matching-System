@@ -143,7 +143,6 @@ Unsupervised topic modeling provided interpretable creative clusters that helped
 | **Justin Pongos** | CSU Long Beach | *justinpongos@gmail.com* | Bias & Fairness Analysis, EDA |
 | **Naina Talasu** | San José State University | *naina.talasu@gmail.com* | Literary Agent Dataset Analysis |
 | **Lizbeth Krystal Ramirez** | UC Riverside | *lizbethkrystalr@gmail.com* | Exploratory Data Analysis |
-| **Leithbia** | *(university)* | *lizbethkrystalr@gmail.com* | Exploratory Data Analysis & summary statistics (per initial task plan) |
 
 > GitHub links are optional and omitted to respect privacy.
 
